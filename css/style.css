@@ -117,12 +117,14 @@
   color: #fff;
 }
 .masthead h1 {
-  font-size: 90px;
+  margin-top: 40px;
+  font-size: 60px;
   line-height: 1;
   letter-spacing: -2px;
 }
 .masthead p {
-  font-size: 40px;
+  margin-top: -5px;
+  font-size: 35px;
   font-weight: 200;
   line-height: 1.25;
 }
