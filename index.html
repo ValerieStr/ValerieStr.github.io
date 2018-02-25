@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Valeria Strachevskaia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal page of Valeria Strachevskaia">
+    <meta name="author" content="Valeria Strachevskaia">
+    <!-- <link rel="icon" type="image/png" href="favicon.ico"> -->
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Le javascript -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div style="z-index:10;width:100%;position:absolute">
+      <div style="width:100%;height:20px"></div>
+      <div class="container text-center" style="max-width:900px">
+        <div class="row">
+          <div class="col-xs-3">
+            <a class="navbar-link" href="#Management">Project Management</a>
+          </div>
+          <div class="col-xs-3">
+            <a class="navbar-link" href="#Tech">Tech</a>
+          </div>
+          <div class="col-xs-3">
+            <a class="navbar-link" href="#Research">Research</a>
+          </div>
+          <div class="col-xs-3">
+            <a class="navbar-link" href="#Contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron masthead">
+      <div style="width:100%;height:30px"></div>
+      <div class="container" style="max-width:900px;">
+        <div class="row">
+          <div class="col-md-9">
+            <h1>Valeria Strachevskaia</h1>
+            <p>And her power of creativity</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/profile.jpg" class="img-circle" style="width:200px;" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      //scrolling actions of the navbar buttons
+      $('.navbar-link').click(function(e) {
+        e.preventDefault();
+        var scrollto = $(this).attr('href');
+        $('html, body').animate({
+          scrollTop: $(scrollto).offset().top
+        }, 1500);
+      });
+    </script>
+
+    <div id="Management" class="container text-center">
+      
+      <div style="width:100%;height:30px"></div>
+      <h1>Project Management</h1>
+      <div style="width:100%;height:30px"></div>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="img-div-4">
+            <a href="https://www.patreon.com/classics/" target="_blank">
+              <img alt="Classex image" style="width: 120px;" src="img/classex.jpg"/>
+            </a>
+          </div>
+          <h2>ClassEx</h2>
+          <p>Directing and producing fun educational videos on classical music.</p>
+          <p><a class="btn btn-default" href="https://www.patreon.com/classics/" role="button" target="_blank">Explore »</a></p>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="img-div-4">
+            <a href="http://m-p.ru/eng/" target="_blank">
+              <img alt="m-p logo" style="width: 200px;" src="img/Mikhailov-Partners.jpg"/>
+            </a>
+          </div>
+          <h2>Mikhailov and Partners</h2>
+          <p>Project management from proposals to planning and implementation. As a member of a team organised projects with the budgets up to £1M, including presidential events.</p>
+          <p><a class="btn btn-default" href="http://m-p.ru/eng/" role="button" target="_blank">Explore »</a></p>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="img-div-4">
+            <a href="https://www.n-spring.ru/" target="_blank">
+              <img alt="N-Spring logo" style="width: 270px" src="img/n-spring.jpg"/>
+            </a>
+          </div>
+          <h2>N-Spring</h2>
+          <p>Founder of the company designing and manufacturing eco-friendly sleeves for Mac and home accessories.</p>
+          <p><a class="btn btn-default" href="https://www.n-spring.ru/" role="button" target="_blank">Explore »</a></p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="Tech" class="container text-center">
+      
+      <div style="width:100%;height:30px"></div>
+      <h1>Aspiring Tech Entrepreneur</h1>
+      <div style="width:100%;height:30px"></div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="img-div-3">
+            <a href="" target="_blank">
+              <img alt="lance logo" style="width: 200px;" src="img/lance.png"/>
+            </a>
+          </div>
+          <h2>Lance Co-founder</h2>
+          <p>Startup. Marketplace for beauty services provided by freelancers at their or their customers’ place. Idea, structure, supervision of design and MVP building. Suspended at the stage of acquiring providers.<a href="http://www.cs.ox.ac.uk/dan.olteanu/" target="_blank"> 
+          </a>.</p>
+          <p><a class="btn btn-default" href="" role="button" target="_blank">Explore »</a></p>
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="img-div-3">
+            <a href="https://www.startupbootcamp.org/accelerator/fintech-london/" target="_blank">
+              <img alt="Startupbootcamp logo" style="width: 200px;" src="img/Startupbootcamp.png"/>
+            </a>
+          </div>
+          <h2>Hackathon Winner</h2>
+          <p>My team's social payment solution for Slack - SoPal - won the Lloyd's bank prize at PayTastic Hackathon.</p>
+          <p><a class="btn btn-default" href="https://www.startupbootcamp.org/accelerator/fintech-london/" role="button" target="_blank">Explore »</a></p>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="img-div-3">
+            <a href="https://www.codefirstgirls.org.uk/" target="_blank">
+              <img alt="CFG logo" style="width: 200px;" src="img/CFG.png"/>
+            </a>
+          </div>
+          <h2>CFG Graduate</h2>
+          <p> Accomplished a beginners course in coding for girls (HTML, CSS, Bootstrap, Javascript, jQuery).</p>
+          <p><a class="btn btn-default" href="https://www.codefirstgirls.org.uk/" role="button" target="_blank">Explore »</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Research" class="container text-center">
+
+      <div style="width:100%;height:30px"></div>
+      <h1>Research</h1>
+      <div style="width:100%;height:30px"></div>
+      
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="img-div-3">
+            <a href="http://www.ox.ac.uk/" target="_blank">
+              <img alt="Oxford logo" style="height: 100px;" src="img/oxford-logo.jpg"/>
+            </a>
+          </div>
+          <h2>Oxford Student</h2>
+          <p>Accomplished with distinction the Postgraduate Diploma in British and European Studies, Department for Continuing Education, St. Hugh's College.</p>
+          <p><a class="btn btn-default" href="https://www.conted.ox.ac.uk/about/advanced-diploma-in-british-european-studies-pre-masters-course/" role="button" target="_blank">Explore »</a></p>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="img-div-3">
+            <a href="http://www.macdougallauction.com/" target="_blank">
+              <img alt="MD logo" style="height: 100px;" src="img/MD.jpg"/>
+            </a>
+          </div>
+          <h2>Assistant Cataloguer</h2>
+          <p>Currently working for MacDougall Fine Arts Auction House.</p>
+          <p><a class="btn btn-default" href="http://www.macdougallauction.com/" role="button" target="_blank">Explore »</a></p>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="img-div-3">
+            <a href="https://www.vam.ac.uk/exhibitions/pink-floyd/" target="_blank">
+              <img alt="V-A logo" style="height: 100px;" src="img/v-and-a-logo.png"/>
+            </a>
+          </div>
+          <h2>Researcher</h2>
+          <p>Conducted research for the Pink Floyd exhibition. Assisted the Theatre and Performance Department team with curation and exhibition organisation.</p>
+          <p><a class="btn btn-default" href="https://www.vam.ac.uk/exhibitions/pink-floyd/" role="button" target="_blank">Explore »</a></p>
+        </div>
+      </div>
+
+      <div style="width:100%;height:30px"></div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="img-div-3">
+            <a href="https://www.russianartandculture.com/authors/valeria-stracevska/" target="_blank">
+              <img alt="RAC logo" style="height: 100px;" src="img/RAC.png"/>
+            </a>
+          </div>
+          <h2>Art Journalism</h2>
+          <p>Has contributed interviews, exhibition reviews, and articles to the Russian Art and Culture online magazine.</p>
+          <p><a class="btn btn-default" href="https://www.russianartandculture.com/authors/valeria-stracevska/" role="button" target="_blank">Explore »</a></p>
+        </div>
+
+        <div class="col-sm-4 ">
+          <div class="img-div-3">
+            <a href="https://www.st-andrews.ac.uk/" target="_blank">
+              <img alt="StAndrews logo" style="height: 130px;" src="img/standrews.jpg"/>
+            </a>
+          </div>
+          <h2>Master of Arts</h2>
+          <p>Graduated with the title MLitt in History of Art from the University of St Andrews.</p>
+          <p><a class="btn btn-default" href="https://www.st-andrews.ac.uk/" role="button" target="_blank">Explore »</a></p>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="img-div-3">
+            <a href="http://oxfordstudent.com/2015/05/21/pasternaks-sketch-of-the-past/" target="_blank">
+              <img alt="oxstu logo" style="height: 50px;" src="img/oxstu.jpeg"/>
+            </a>
+          </div>
+          <h2>Art Journalism</h2>
+          <p>Contributed to the arts section of the Oxford Student newspaper.</p>
+          <p><a class="btn btn-default" href="http://oxfordstudent.com/2015/05/21/pasternaks-sketch-of-the-past/" role="button" target="_blank">Explore »</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Interests" class="container text-center">
+      <div style="width:100%;height:30px"></div>
+      <h1>Interests and Future Projects</h1>
+    
+      <div style="width:100%;height:30px"></div>
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>Curatorial projects</h2>
+          <p>My heart is with well-researched and well-designed exhibitions. Best way of learning something new and travelling in time. Revolution, Opera, Savage Beauty at Victoria and Albert, Japaneese Housing at the Barbican, Hunterian Museum - just a few of my favourites.</p>
+        </div>
+
+        <div class="col-sm-4">
+          <h2>Filmmaking</h2>
+          <p>People want entertainment! And it is an extremelly exciting process to produce it. Having worked with animation, I got really interested in production and filmmaking. I would love to work with some big animation or film company one day. My next step is to learn video editing and bring my directing and production skills to a new level.</p>
+        </div>
+
+        <div class="col-sm-4">
+          <h2>Moral Theory</h2>
+          <p>What does it mean to be a human being? What is the right thing for a person or a government to do? I have studied morality from psychological and philosophical perspecives and now doing a course on Moral Foundations of Politics on <a href="http://coursera.org">Coursera</a></p>
+        </div>
+      </div>
+
+      <div style="width:100%;height:30px"></div>
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>Perfumery</h2>
+          <p>I recently discovered a whole new world - a world of smells! Writing a fragrance story and creating my own perfume was one of the most fascinating experiences in my life and I am planning to do more of perfumery experiments - distilling, blending, creating!</p>
+        </div>
+
+        <div class="col-sm-4">
+          <h2>Aesthetics</h2>
+          <p>How we perceive beauty? How does art relate to power? What role has art to play in the society? Although I can see splashes of paint and brushstrokes, I find philosophy, history, and sociology of art much more attractive.</p>
+        </div>
+
+        <div class="col-sm-4">
+          <h2>Dance Sport</h2>
+          <p>Best of humanity's elegance and passion, dance sport, keeps me fit. I won the 3<sup>rd</sup> and 4<sup>th</sup> places in beginners' Quickstep and Waltz in Blackpool and I am up for more.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Contact" class="container text-center">
+      <div style="width:100%;height:30px"></div>
+      <h1>Contact Me</h1>
+    
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="img-div-3">
+            <a href="mailto:valeria.strachevskaia@gmail.com"><img alt="Gmail logo" style="width:80px" src="img/gmail-logo.png"/></a>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="img-div-3">
+              <a href="http://uk.linkedin.com/valeriastrachevskaia/"><img alt="LinkedIn logo" style="width:80px" src="img/linkedin-logo.png"/></a>
+              <p><a href="https://www.linkedin.com/valeriastrachevskaia/" target="_blank"></a></p>
+            </div>
+        </div>
+            
+        <div class="col-sm-4">
+          <div class="img-div-3">
+            <a href="https://www.facebook.com/valeria.strachevskaya"><img alt="Facebook logo" style="width:80px" src="img/facebook-logo.png"/></a>
+            <p><a href="https://www.facebook.com/valeria.strachevskaya" target="_blank"></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Valeria Strachevskaia. 2018.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
